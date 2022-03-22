@@ -17,7 +17,7 @@ public class TaskTest : MonoBehaviour
   
     }
 
-    private async void DO()
+    private void DO()
     {
         Debug.Log($"###Start TaskMethod");
         /*await*/ TaskMethod(1);
